@@ -1,0 +1,48 @@
+body {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.container {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    width: 500px;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.img {
+    margin-bottom: 15%;
+}
+
+.p {
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    color: var(--advice-dice-color);
+}
+
+.h2 {
+    font-family: 'Bungee', cursive;
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button {
+    background-color: var(--advice-dice-color);
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 2%;
+}
